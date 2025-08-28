@@ -303,6 +303,7 @@ def ficks_second_law():
 		again = input("\nWould you like to use the calculator again? (y/n): ").strip().lower()
 		if again != 'y':
 			print("Thank you for using the Fick's Second Law calculator!")
+			input("Press Enter to exit...") 
 			break
 
 if __name__ == "__main__":
